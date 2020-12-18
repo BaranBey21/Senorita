@@ -1,20 +1,20 @@
-### [](http://www.telegram.dog/MissMiley_bot)
+### [MissSenorita_bot](http://www.telegram.dog/MissSenorita_bot)
 > with HunterxHunter theme.
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
+Telegram advanced powerful bot for managing your groups with a extras fun features with HunterxHunter theme.
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/ddf241bcf2bc83e800c92.jpg)](https://heroku.com/deploy?template=https://github.com/prashu32/Senorita.git)
+[![Deploy](https://telegra.ph/file/994c745599d9032518c1b.jpg)](https://heroku.com/deploy?template=https://github.com/prashu32/Senorita.git)
 
 ### Configuration
 
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The prefered version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `miley` folder, alongside the `__main__.py` file . 
+This file should be placed in your `senorita` folder, alongside the `__main__.py` file . 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of 
 your other settings.
 
@@ -27,11 +27,11 @@ from miley.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 1188384442  # my telegram ID
-    OWNER_USERNAME = "MysteryxD"  # my telegram username
+    OWNER_ID =  1137511834 # my telegram ID
+    OWNER_USERNAME = "MBBS_LOVER"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
-    MESSAGE_DUMP = '-1001375770539' # some group chat that your bot is a member of
+    MESSAGE_DUMP = '-1001482455032' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
     SUDO_USERS = []  # List of id's for users which have sudo access to the bot.
     LOAD = []
