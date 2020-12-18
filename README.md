@@ -1,4 +1,4 @@
-### [@MissMiley_bot](http://www.telegram.dog/MissMiley_bot)
+### [](http://www.telegram.dog/MissMiley_bot)
 > with HunterxHunter theme.
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  
@@ -7,7 +7,7 @@
 Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/038200c811cff976f484e.jpg)](https://heroku.com/deploy?template=https://github.com/MysteryxD/Miley.git)
+[![Deploy](https://telegra.ph/file/ddf241bcf2bc83e800c92.jpg)](https://heroku.com/deploy?template=https://github.com/prashu32/Senorita.git)
 
 ### Configuration
 
