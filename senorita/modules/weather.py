@@ -8,8 +8,8 @@ from telegram import Message, Chat, Update, Bot, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import run_async
 
-from miley import dispatcher, updater, API_WEATHER
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher, updater, API_WEATHER
+from senorita.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
