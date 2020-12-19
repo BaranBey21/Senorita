@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from miley.modules.helper_funcs.msg_types import Types
-from miley.modules.sql import SESSION, BASE
+from senorita.modules.helper_funcs.msg_types import Types
+from senorita.modules.sql import SESSION, BASE
 
 class ChatAccessConnectionSettings(BASE):
     __tablename__ = "access_connection"
