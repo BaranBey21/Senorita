@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, UnicodeText, Boolean, Integer
 
-from miley.modules.sql import BASE, SESSION
+from senorita.modules.sql import BASE, SESSION
 
 
 class AFK(BASE):
