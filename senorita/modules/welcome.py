@@ -2,27 +2,27 @@ import html, time
 import re
 from typing import Optional, List
 
-import miley.modules.helper_funcs.cas_api as cas
+import senorita.modules.helper_funcs.cas_api as cas
 
 from telegram import Message, Chat, Update, Bot, User, CallbackQuery, ChatMember, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, MessageEntity
 from telegram.error import BadRequest
 from telegram.ext import MessageHandler, Filters, CommandHandler, run_async, CallbackQueryHandler
 from telegram.utils.helpers import mention_markdown, mention_html, escape_markdown
 
-import miley.modules.sql.welcome_sql as sql
-import miley.modules.sql.global_bans_sql as gbansql
-import miley.modules.sql.users_sql as userssql
-import miley.modules.sql.feds_sql as feds_sql
+import senorita.modules.sql.welcome_sql as sql
+import senorita.modules.sql.global_bans_sql as gbansql
+import senorita.modules.sql.users_sql as userssql
+import senorita.modules.sql.feds_sql as feds_sql
 
-from miley import dispatcher, OWNER_ID, LOGGER, SUDO_USERS, SUPPORT_USERS, DEV_USERS, WHITELIST_USERS, MESSAGE_DUMP
-from miley.modules.helper_funcs.chat_status import user_admin, can_delete, is_user_ban_protected
-from miley.modules.helper_funcs.misc import build_keyboard, revert_buttons, send_to_list
-from miley.modules.helper_funcs.msg_types import get_welcome_type
-from miley.modules.helper_funcs.extraction import extract_user
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.filters import CustomFilters
-from miley.modules.helper_funcs.string_handling import markdown_parser, escape_invalid_curly_brackets
-from miley.modules.log_channel import loggable
+from senorita import dispatcher, OWNER_ID, LOGGER, SUDO_USERS, SUPPORT_USERS, DEV_USERS, WHITELIST_USERS, MESSAGE_DUMP
+from senorita.modules.helper_funcs.chat_status import user_admin, can_delete, is_user_ban_protected
+from senorita.modules.helper_funcs.misc import build_keyboard, revert_buttons, send_to_list
+from Senorita.modules.helper_funcs.msg_types import get_welcome_type
+from senorita.modules.helper_funcs.extraction import extract_user
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.filters import CustomFilters
+from senorita.modules.helper_funcs.string_handling import markdown_parser, escape_invalid_curly_brackets
+from senorita.modules.log_channel import loggable
 
 VALID_WELCOME_FORMATTERS = ['first', 'last', 'fullname', 'username', 'id', 'count', 'chatname', 'mention']
 
@@ -158,8 +158,8 @@ def new_member(bot: Bot, update: Update):
             elif new_mem.id in WHITELIST_USERS:
                 update.effective_message.reply_text("Oof! A Whitelist User just joined!")
 
-            elif new_mem.id == 1188384442:
-                update.effective_message.reply_text("Whoa! My Creator/Developer has just joined your group. Happy to have Mystery here.")
+            elif new_mem.id == 1137511834:
+                update.effective_message.reply_text("Whoa! My Creator/Developer has just joined your group. Happy to have Prashu❤️ my Professor here.")
 
             # Make bot greet admins
             elif new_mem.id == bot.id:
