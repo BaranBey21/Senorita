@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, func, distinct
 
-from miley.modules.sql import SESSION, BASE
+from senorita.modules.sql import SESSION, BASE
 
 
 class Disable(BASE):
