@@ -58,16 +58,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1188384442"
+         "value": "1137511834"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "✪ Mყʂƚҽɾყ Bσყ 🇮🇳✰"
+         "value": "✪PRASHU ❤️ PROFESSOR🇮🇳✰"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1188384442"
+         "value": "1137511834"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -107,12 +107,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1188384442"
+         "value": "1137511834"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1188384442"
+         "value": "1137511834"
       },
      
       "TOKEN": {
@@ -133,7 +133,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1188384442"
+         "value": "1137511834"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -164,6 +164,6 @@
   ],
    "name": "Senorita",
    "repository": "https://github.com/prashu32/Senorita",
-   "success_url": "https://telegram.dog/MissMiley_bot",
-   "logo": "https://telegra.ph/file/038200c811cff976f484e.jpg"
+   "success_url": "https://telegram.dog/MissSenorita_bot",
+   "logo": "https://telegra.ph/file/7fe439be6a25234b0672a.jpg"
 }
