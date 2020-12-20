@@ -192,7 +192,7 @@ def listmodules(bot: Bot, update: Update):
     for helpable_module in HELPABLE:
         helpable_module_info = IMPORTED[helpable_module]
         file_info = IMPORTED[helpable_module_info.__mod_name__.lower()]
-        file_name = file_info.__name__.rsplit("miley.modules.", 1)[1]
+        file_name = file_info.__name__.rsplit("senorita.modules.", 1)[1]
         mod_name = file_info.__mod_name__
         module_list.append(f'- <code>{mod_name} ({file_name})</code>\n')
     module_list = "Following modules are loaded : \n\n" + ''.join(module_list)
@@ -224,7 +224,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
         return log_message
     
     if user_member.status == 'administrator' or user_member.status == 'creator':
-        message.reply_text("How am I meant to promote someone that's already an admin?")
+        message.reply_text("How am I meant to promote someone that's already an admin dimag kaha hai sir🤗?")
         return log_message
 
     if user_id == bot.id:
@@ -252,7 +252,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
             message.reply_text("An error occured while promoting.")
             return log_message
                          
-    bot.sendMessage(chat.id, "Sucessfully promoted <b>{}</b>❤!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
+    bot.sendMessage(chat.id, "Ab naacho Jaanu Sucessfully promoted <b>{}</b>❤!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
     
     log_message += "<b>{}:</b>" \
                    "\n#PROMOTED" \
@@ -310,7 +310,7 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
                               can_pin_messages=False,
                               can_promote_members=False)
 
-        bot.sendMessage(chat.id, "Sucessfully demoted <b>{}</b>!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
+        bot.sendMessage(chat.id, "Get lost bewfa Sucessfully demoted <b>{}</b>!".format(user_member.user.first_name or user_id), parse_mode=ParseMode.HTML)
 
         log_message += "<b>{}:</b>" \
                        "\n#DEMOTED" \
