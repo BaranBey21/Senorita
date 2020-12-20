@@ -6,10 +6,10 @@ from typing import List
 from telegram import Bot, Update, ParseMode
 from telegram.ext import run_async
 
-from miley import dispatcher
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import is_user_admin, user_admin
-from miley.modules.helper_funcs.extraction import extract_user
+from senorita import dispatcher
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import is_user_admin, user_admin
+from senorita.modules.helper_funcs.extraction import extract_user
 
 #sleep how many times after each edit in 'love' 
 EDIT_SLEEP = 1
