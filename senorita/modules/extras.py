@@ -1,8 +1,8 @@
 import random
 from telegram.ext import run_async, Filters
 from telegram import Message, Chat, Update, Bot, MessageEntity
-from miley import dispatcher
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher
+from senorita.modules.disable import DisableAbleCommandHandler
 
 ABUSE_STRINGS = (
     "പോടാ പട്ടി",
