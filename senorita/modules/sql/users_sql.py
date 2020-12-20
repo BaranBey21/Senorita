@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, Integer, UnicodeText, String, ForeignKey, UniqueConstraint, func
 
-from miley import dispatcher
-from miley.modules.sql import BASE, SESSION
+from senorita import dispatcher
+from senorita.modules.sql import BASE, SESSION
 
 
 class Users(BASE):
