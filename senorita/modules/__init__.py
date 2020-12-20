@@ -83,7 +83,7 @@ if ENV:
     TELETHON_HASH = os.environ.get("TL_HASH", None)
     
 else:
-    from miley.config import Development as Config
+    from senorita.config import Development as Config
     TOKEN = Config.API_KEY
 
     try:
