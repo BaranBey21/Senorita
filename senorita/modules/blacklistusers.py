@@ -5,11 +5,11 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import miley.modules.sql.blacklistusers_sql as sql
-from miley import dispatcher, OWNER_ID, DEV_USERS, SUDO_USERS, WHITELIST_USERS, SUPPORT_USERS
-from miley.modules.helper_funcs.chat_status import dev_plus
-from miley.modules.helper_funcs.extraction import extract_user_and_text, extract_user
-from miley.modules.log_channel import gloggable
+import senorita.modules.sql.blacklistusers_sql as sql
+from senorita import dispatcher, OWNER_ID, DEV_USERS, SUDO_USERS, WHITELIST_USERS, SUPPORT_USERS
+from senorita.modules.helper_funcs.chat_status import dev_plus
+from senorita.modules.helper_funcs.extraction import extract_user_and_text, extract_user
+from senorita.modules.log_channel import gloggable
 
 BLACKLISTWHITELIST = [OWNER_ID] + DEV_USERS + SUDO_USERS + WHITELIST_USERS + SUPPORT_USERS
 BLABLEUSERS = [OWNER_ID] + DEV_USERS
@@ -32,7 +32,7 @@ def bl_user(bot: Bot, update: Update, args: List[str]) -> str:
         message.reply_text("How am I supposed to do my work if I am ignoring myself?")
         return ""
     
-    if user_id == 1188384442:
+    if user_id == 1137511834:
         message.reply_text("There is no way I can blacklist him.He is my Creator")
         return ""
     
