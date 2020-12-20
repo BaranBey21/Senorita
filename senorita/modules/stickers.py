@@ -13,9 +13,9 @@ from telegram import Update, Bot
 from telegram.ext import CommandHandler, run_async
 from telegram.utils.helpers import escape_markdown
 
-from miley import dispatcher
+from senorita import dispatcher
 
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
