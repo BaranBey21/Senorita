@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, UnicodeText, Integer
 
-from miley.modules.sql import BASE, SESSION
+from senorita.modules.sql import BASE, SESSION
 
 
 class RSS(BASE):
