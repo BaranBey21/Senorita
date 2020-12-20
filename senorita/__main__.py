@@ -30,8 +30,8 @@ PM_START_TEXT = """
 _Hello_ *{}*
 _My name is_ *{}*\n A Powerful Telegram Bot to Manage Your Groups,feel free to add to your groups!!
 
-Support Channel : *@MileyNews*
-Support Group : *@MileySupport*
+Support Channel : *@Spamreporterr*
+Support Group : *@Spamreporterr*
 
 _I'm maintained by_ [{}](tg://user?id={})
  
