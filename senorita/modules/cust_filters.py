@@ -8,16 +8,16 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from miley import dispatcher, LOGGER
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import user_admin
-from miley.modules.helper_funcs.extraction import extract_text
-from miley.modules.helper_funcs.filters import CustomFilters
-from miley.modules.helper_funcs.misc import build_keyboard
-from miley.modules.helper_funcs.string_handling import split_quotes, button_markdown_parser
-from miley.modules.sql import cust_filters_sql as sql
+from senorita import dispatcher, LOGGER
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import user_admin
+from senorita.modules.helper_funcs.extraction import extract_text
+from senorita.modules.helper_funcs.filters import CustomFilters
+from senorita.modules.helper_funcs.misc import build_keyboard
+from senorita.modules.helper_funcs.string_handling import split_quotes, button_markdown_parser
+from senorita.modules.sql import cust_filters_sql as sql
 
-from miley.modules.connection import connected
+from senorita.modules.connection import connected
 
 HANDLER_GROUP = 10
 BASIC_FILTER_STRING = "*Filters in this chat:*\n"
