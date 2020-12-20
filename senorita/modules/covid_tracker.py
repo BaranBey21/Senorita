@@ -4,8 +4,8 @@ from urllib.request import urlopen
 from telegram import ParseMode, Update, Bot, Chat
 from telegram.ext import CommandHandler, MessageHandler, BaseFilter, run_async
 
-from miley import dispatcher
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher
+from senorita.modules.disable import DisableAbleCommandHandler
 from requests import get
 
 def covindia(bot: Bot, update: Update):
