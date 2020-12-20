@@ -1,9 +1,9 @@
-from miley import dispatcher, LOGGER
+from senorita import dispatcher, LOGGER
 from telegram import Bot, Update
 from telegram.ext.dispatcher import run_async
-from miley.modules.helper_funcs.misc import sendMessage
+from senorita.modules.helper_funcs.misc import sendMessage
 from telegram.ext import CommandHandler
-from miley.modules.helper_funcs.chat_status import dev_plus
+from senorita.modules.helper_funcs.chat_status import dev_plus
 from subprocess import Popen, PIPE
 
 
