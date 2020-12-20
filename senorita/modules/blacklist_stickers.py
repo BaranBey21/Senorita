@@ -9,19 +9,19 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import miley.modules.sql.blsticker_sql as sql
-from miley import dispatcher, SUDO_USERS, LOGGER, OWNER_ID
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
+import senorita.modules.sql.blsticker_sql as sql
+from senorita import dispatcher, SUDO_USERS, LOGGER, OWNER_ID
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import can_delete, is_user_admin, user_not_admin, user_admin, \
 		bot_can_delete, is_bot_admin
-from miley.modules.helper_funcs.filters import CustomFilters
-from miley.modules.helper_funcs.misc import split_message
-from miley.modules.warns import warn
-from miley.modules.log_channel import loggable
-from miley.modules.sql import users_sql
-from miley.modules.connection import connected
+from senorita.modules.helper_funcs.filters import CustomFilters
+from senorita.modules.helper_funcs.misc import split_message
+from senorita.modules.warns import warn
+from senorita.modules.log_channel import loggable
+from senorita.modules.sql import users_sql
+from senorita.modules.connection import connected
 
-from miley.modules.helper_funcs.alternate import send_message
+from senorita.modules.helper_funcs.alternate import send_message
 
 
 @run_async
