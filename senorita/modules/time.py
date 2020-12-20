@@ -7,8 +7,8 @@ from typing import List
 from telegram import Bot, Update, ParseMode
 from telegram.ext import run_async
 
-from miley import dispatcher, TIME_API_KEY
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher, TIME_API_KEY
+from senorita.modules.disable import DisableAbleCommandHandler
 
 def generate_time(to_find: str, findtype: List[str]) -> str:
 
