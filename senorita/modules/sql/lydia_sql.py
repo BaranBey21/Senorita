@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String
 
-from miley.modules.sql import BASE, SESSION
+from senorita.modules.sql import BASE, SESSION
 
 
 class ChatbotChats(BASE):
