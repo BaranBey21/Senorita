@@ -5,10 +5,10 @@ from telegram import Bot, Update, ParseMode, MAX_MESSAGE_LENGTH
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import miley.modules.sql.userinfo_sql as sql
-from miley import dispatcher, SUDO_USERS, DEV_USERS
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.extraction import extract_user
+import senorita.modules.sql.userinfo_sql as sql
+from senorita import dispatcher, SUDO_USERS, DEV_USERS
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.extraction import extract_user
 
 
 @run_async
