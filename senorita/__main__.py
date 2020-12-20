@@ -28,12 +28,12 @@ from senorita.modules.connection import connect_button
 
 PM_START_TEXT = """
 _Hello_ *{}*
-_My name is_ *{}*\n A Powerful Telegram Bot to Manage Your Groups,feel free to add to your groups!!
+_My name is_ *{}*\n A Powerful and Cute 🥺 Telegram Bot to Manage Your Groups,feel free to add to your groups dear!!
 
 Support Channel : *@Spamreporterr*
 Support Group : *@Spamreporterr*
 
-_I'm maintained by_ [{}](tg://user?id={})
+_I'm maintained by My Jaanu_ [{}](tg://user?id={})
  
 """
 
