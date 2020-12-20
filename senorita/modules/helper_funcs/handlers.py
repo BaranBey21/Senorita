@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import CommandHandler, RegexHandler, MessageHandler
 
-from miley import ALLOW_EXCL
-import miley.modules.sql.blacklistusers_sql as sql
+from senorita import ALLOW_EXCL
+import senorita.modules.sql.blacklistusers_sql as sql
 
 if ALLOW_EXCL:
     CMD_STARTERS = ('/', '!')
