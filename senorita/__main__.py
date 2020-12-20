@@ -18,12 +18,12 @@ from telegram.error import Unauthorized, BadRequest, TimedOut, NetworkError, Cha
 from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryHandler
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop, Dispatcher
 from telegram.utils.helpers import escape_markdown
-from miley import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CERT_PATH, PORT, URL, LOGGER, OWNER_NAME, ALLOW_EXCL, client
-from miley.modules import ALL_MODULES
-from miley.modules.helper_funcs.chat_status import is_user_admin
-from miley.modules.helper_funcs.misc import paginate_modules
-from miley.modules.connection import connected
-from miley.modules.connection import connect_button
+from senorita import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CERT_PATH, PORT, URL, LOGGER, OWNER_NAME, ALLOW_EXCL, client
+from senorita.modules import ALL_MODULES
+from senorita.modules.helper_funcs.chat_status import is_user_admin
+from senorita.modules.helper_funcs.misc import paginate_modules
+from senorita.modules.connection import connected
+from senorita.modules.connection import connect_button
 
 
 PM_START_TEXT = """
