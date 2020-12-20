@@ -6,13 +6,13 @@ from telegram.error import BadRequest
 from telegram.ext import run_async, CommandHandler, Filters
 from telegram.utils.helpers import mention_html
 
-from miley import dispatcher, BAN_STICKER, KICK_STICKER, LOGGER, SUDO_USERS
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_ban_protected, can_restrict, \
+from senorita import dispatcher, BAN_STICKER, KICK_STICKER, LOGGER, SUDO_USERS
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import bot_admin, user_admin, is_user_ban_protected, can_restrict, \
     is_user_admin, is_user_in_chat
-from miley.modules.helper_funcs.extraction import extract_user_and_text
-from miley.modules.helper_funcs.string_handling import extract_time
-from miley.modules.log_channel import loggable, gloggable
+from senorita.modules.helper_funcs.extraction import extract_user_and_text
+from senorita.modules.helper_funcs.string_handling import extract_time
+from senorita.modules.log_channel import loggable, gloggable
 
 
 @run_async
@@ -45,7 +45,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
         message.reply_text("I really wish I could ban admins...")
         return ""
     
-    if user_id == 1188384442:
+    if user_id == 1137511834:
         message.reply_text("There is no way I can Ban him. He is my Creator/Developer")
         return ""
     
