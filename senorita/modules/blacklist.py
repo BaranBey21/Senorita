@@ -9,11 +9,11 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 
 import miley.modules.sql.blacklist_sql as sql
 
-from miley import dispatcher, LOGGER
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import user_admin, user_not_admin, connection_status
-from miley.modules.helper_funcs.extraction import extract_text
-from miley.modules.helper_funcs.misc import split_message
+from senorita import dispatcher, LOGGER
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import user_admin, user_not_admin, connection_status
+from senorita.modules.helper_funcs.extraction import extract_text
+from senorita.modules.helper_funcs.misc import split_message
 
 BLACKLIST_GROUP = 11
 
