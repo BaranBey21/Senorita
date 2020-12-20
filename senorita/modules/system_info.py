@@ -6,11 +6,11 @@ from platform import python_version, uname
 from telegram import Update, Bot, ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import run_async, CallbackQueryHandler, CommandHandler
 
-from miley import dispatcher, DEV_USERS, VERSION
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import dev_plus
-import miley.modules.helper_funcs.git_api as git
-from miley.modules.helper_funcs.filters import CustomFilters
+from senorita import dispatcher, DEV_USERS, VERSION
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import dev_plus
+import senorita.modules.helper_funcs.git_api as git
+from senorita.modules.helper_funcs.filters import CustomFilters
 
 def convert(speed):
     return round(int(speed)/1048576, 2)
