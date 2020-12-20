@@ -7,21 +7,21 @@ from telegram import Message, Chat, Update, Bot
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 
-import miley.modules.sql.notes_sql as sql
-from miley import dispatcher, LOGGER, OWNER_ID, SUDO_USERS, MESSAGE_DUMP
-from miley.__main__ import DATA_IMPORT
-from miley.modules.helper_funcs.chat_status import user_admin
-from miley.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from miley.modules.helper_funcs.msg_types import get_note_type
-from miley.modules.rules import get_rules
-import miley.modules.sql.rules_sql as rulessql
-from miley.modules.sql import warns_sql as warnssql
-import miley.modules.sql.blacklist_sql as blacklistsql
-from miley.modules.sql import disable_sql as disabledsql
-from miley.modules.sql import cust_filters_sql as filtersql
-import miley.modules.sql.welcome_sql as welcsql
-import miley.modules.sql.locks_sql as locksql
-from miley.modules.connection import connected
+import senorita.modules.sql.notes_sql as sql
+from senorita import dispatcher, LOGGER, OWNER_ID, SUDO_USERS, MESSAGE_DUMP
+from senorita.__main__ import DATA_IMPORT
+from senorita.modules.helper_funcs.chat_status import user_admin
+from senorita.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from senorita.modules.helper_funcs.msg_types import get_note_type
+from senorita.modules.rules import get_rules
+import senorita.modules.sql.rules_sql as rulessql
+from senorita.modules.sql import warns_sql as warnssql
+import senorita.modules.sql.blacklist_sql as blacklistsql
+from senorita.modules.sql import disable_sql as disabledsql
+from senorita.modules.sql import cust_filters_sql as filtersql
+import senorita.modules.sql.welcome_sql as welcsql
+import senorita.modules.sql.locks_sql as locksql
+from semi.modules.connection import connected
 
 @run_async
 @user_admin
