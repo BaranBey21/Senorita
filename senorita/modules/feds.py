@@ -16,18 +16,18 @@ from telegram import ParseMode, Update, Bot, Chat, User, MessageEntity, InlineKe
 from telegram.ext import run_async, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-from miley import dispatcher, OWNER_ID, SUDO_USERS, DEV_USERS, WHITELIST_USERS, LOGGER, MESSAGE_DUMP
-from miley.modules.helper_funcs.handlers import CMD_STARTERS
-from miley.modules.helper_funcs.misc import is_module_loaded, send_to_list
-from miley.modules.helper_funcs.chat_status import is_user_admin
-from miley.modules.helper_funcs.extraction import extract_user, extract_unt_fedban, extract_user_fban
-from miley.modules.helper_funcs.string_handling import markdown_parser
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher, OWNER_ID, SUDO_USERS, DEV_USERS, WHITELIST_USERS, LOGGER, MESSAGE_DUMP
+from senorita.modules.helper_funcs.handlers import CMD_STARTERS
+from senorita.modules.helper_funcs.misc import is_module_loaded, send_to_list
+from senorita.modules.helper_funcs.chat_status import is_user_admin
+from senorita.modules.helper_funcs.extraction import extract_user, extract_unt_fedban, extract_user_fban
+from senorita.modules.helper_funcs.string_handling import markdown_parser
+from senorita.modules.disable import DisableAbleCommandHandler
 
-import miley.modules.sql.feds_sql as sql
+import senorita.modules.sql.feds_sql as sql
 
-from miley.modules.connection import connected
-from miley.modules.helper_funcs.alternate import send_message
+from senorita.modules.connection import connected
+from senorita.modules.helper_funcs.alternate import send_message
 # Hello bot owner, I time spent for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha
 # Federation rework by Mizukito Akito
