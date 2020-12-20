@@ -8,11 +8,11 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import miley.modules.sql.connection_sql as sql
-from miley import dispatcher, SUDO_USERS, DEV_USERS, spamfilters
-from miley.modules.helper_funcs import chat_status
-from miley.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from miley.modules.helper_funcs.string_handling import extract_time
+import senorita.modules.sql.connection_sql as sql
+from senorita import dispatcher, SUDO_USERS, DEV_USERS, spamfilters
+from senorita.modules.helper_funcs import chat_status
+from senorita.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from senorita.modules.helper_funcs.string_handling import extract_time
 
 from miley.modules.helper_funcs.alternate import send_message
 
