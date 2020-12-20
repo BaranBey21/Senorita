@@ -6,10 +6,10 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown
 
-import miley.modules.sql.rules_sql as sql
-from miley import dispatcher
-from miley.modules.helper_funcs.chat_status import user_admin
-from miley.modules.helper_funcs.string_handling import markdown_parser
+import senorita.modules.sql.rules_sql as sql
+from senorita import dispatcher
+from senorita.modules.helper_funcs.chat_status import user_admin
+from senorita.modules.helper_funcs.string_handling import markdown_parser
 
 
 @run_async
