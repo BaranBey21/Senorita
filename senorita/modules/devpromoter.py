@@ -8,10 +8,10 @@ from telegram import Bot, Update, ParseMode, TelegramError
 from telegram.ext import CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from miley import dispatcher, WHITELIST_USERS, SUPPORT_USERS, SUDO_USERS, DEV_USERS, OWNER_ID
-from miley.modules.helper_funcs.chat_status import whitelist_plus, dev_plus
-from miley.modules.helper_funcs.extraction import extract_user
-from miley.modules.log_channel import gloggable
+from senorita import dispatcher, WHITELIST_USERS, SUPPORT_USERS, SUDO_USERS, DEV_USERS, OWNER_ID
+from senorita.modules.helper_funcs.chat_status import whitelist_plus, dev_plus
+from senorita.modules.helper_funcs.extraction import extract_user
+from senorita.modules.log_channel import gloggable
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), 'miley/elevated_users.json')
 
