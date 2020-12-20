@@ -4,7 +4,7 @@ import requests
 from telegram import Bot, Message, Update, ParseMode
 from telegram.ext import CommandHandler, run_async
 
-from miley import dispatcher
+from senorita import dispatcher
 
 
 @run_async
