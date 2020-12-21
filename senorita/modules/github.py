@@ -2,8 +2,8 @@
 from telegram import ParseMode, Update, Bot
 from telegram.ext import run_async
 
-from miley.modules.disable import DisableAbleCommandHandler
-from miley import dispatcher
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher
 
 from requests import get
 
