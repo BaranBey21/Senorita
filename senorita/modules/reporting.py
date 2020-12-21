@@ -7,10 +7,10 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, RegexHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from miley import dispatcher, LOGGER, DEV_USERS, WHITELIST_USERS
-from miley.modules.helper_funcs.chat_status import user_not_admin, user_admin
-from miley.modules.log_channel import loggable
-from miley.modules.sql import reporting_sql as sql
+from senorita import dispatcher, LOGGER, DEV_USERS, WHITELIST_USERS
+from senorita.modules.helper_funcs.chat_status import user_not_admin, user_admin
+from senorita.modules.log_channel import loggable
+from senorita.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 5
 REPORT_IMMUNE_USERS = DEV_USERS + WHITELIST_USERS
