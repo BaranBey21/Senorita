@@ -3,8 +3,8 @@ from tswift import Song
 from telegram import Bot, Update, Message, Chat
 from telegram.ext import run_async
 
-from miley import dispatcher
-from miley.modules.disable import DisableAbleCommandHandler
+from senorita import dispatcher
+from senorita.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
