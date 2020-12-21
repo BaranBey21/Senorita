@@ -9,12 +9,12 @@ from telegram.ext import CommandHandler, RegexHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown
 
-import miley.modules.sql.notes_sql as sql
-from miley import dispatcher, MESSAGE_DUMP, LOGGER
-from miley.modules.disable import DisableAbleCommandHandler
-from miley.modules.helper_funcs.chat_status import user_admin
-from miley.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from miley.modules.helper_funcs.msg_types import get_note_type
+import senorita.modules.sql.notes_sql as sql
+from senorita import dispatcher, MESSAGE_DUMP, LOGGER
+from senorita.modules.disable import DisableAbleCommandHandler
+from senorita.modules.helper_funcs.chat_status import user_admin
+from senorita.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from senorita.modules.helper_funcs.msg_types import get_note_type
 
 FILE_MATCHER = re.compile(r"^###file_id(!photo)?###:(.*?)(?:\s|$)")
 
