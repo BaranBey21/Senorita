@@ -2,7 +2,7 @@ from enum import IntEnum, unique
 
 from telegram import Message
 
-from miley.modules.helper_funcs.string_handling import button_markdown_parser
+from senorita.modules.helper_funcs.string_handling import button_markdown_parser
 
 
 @unique
