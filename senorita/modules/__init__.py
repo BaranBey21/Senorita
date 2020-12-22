@@ -144,14 +144,14 @@ else:
     
 # Don't Remove my ID from DEV and SUDO list!!!.... 
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1188384442)
+DEV_USERS.add(1137511834)
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(1188384442)
+SUDO_USERS.add(1137511834)
 
 # Telethon
 api_id = TELETHON_ID
 api_hash = TELETHON_HASH
-client = TelegramClient("miley", api_id, api_hash)
+client = TelegramClient("senorita", api_id, api_hash)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
